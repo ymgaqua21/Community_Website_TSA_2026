@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="Templates/header.js"></script>
+    <script src="Templates/footer.js"></script>
+
+    <link rel="shortcut icon" href="Images/vegetable_icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Mac Clubs</title>
+
+    <nav>
+        <ul>
+            <li><a href="index.html"></a></li>
+        </ul>
+    </nav>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-house-chimney"></i>
+                            </li>
+                        </a>
+                        <a href="index.html">
+                            <li>
+                                <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i>
+                            </li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="">
+                            <li>
+                                <i class="fa-solid fa-user" id="user-mb"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="aboutUs.html">
+                            <li>About</li>
+                        </a>
+                        <a href="index.html#anchor-image">
+                            <li>Discover Clubs</li>
+                        </a>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="Images/honeybee.png" alt="Vegetarian Food">
+            </div>
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <div class="nav">
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="aboutUs.html">
+                        <li>About</li>
+                    </a>
+                    <a href="index.html#anchor-image">
+                        <li>Discover Clubs</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="index.html">
+                        <li>
+                            <i class="fa-solid fa-house-chimney"></i>
+                        </li>
+                    </a>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i>
+                        </li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li>
+                            <i class="fa-solid fa-user" id="user-lap"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="beverages-main">
+        <label for="categoryFilter">Filter by Category: </label>
+        <select name="categoryFilter" id="categoryFilter">
+            <option value="all">All Clubs</option>
+            <option value="Academic">Academic</option>
+            <option value="Animals">Animals</option>
+            <option value="Arts">Arts</option>
+            <option value="Business">Business</option>
+            <option value="Civic Engagement">Civic Engagement</option>
+            <option value="Games">Games</option>
+            <option value="Military">Military</option>
+            <option value="STEM">STEM</option>
+            </select>
+        <div class="beverages">
+            <div class="item2" data-category="Games">
+                <div>
+                    <img src="Images/Hummushdish.jpg" alt="">
+                </div>
+                <h3>Aldine Esports</h3>
+                <p>Play a variety of games competitively and scholarship opportunities.</p>
+            </div>
+            <div class="item2" data-category="Civic Engagement">
+                <div>
+                    <img src="Images/avocadoToast.jpg" alt="">
+                </div>
+                <h3>Aldine Votes</h3>
+                <p>Fresh avocado mashed on toasted bread with flavorful toppings.</p>
+            </div>
+            <div class="item2" data-category="Arts">
+                <div>
+                    <img src="Images/-bowl-of-oatmeal.jpg" alt="">
+                </div>
+                <h3>Art Club</h3>
+                <p> Warm, hearty oats topped with fruits and nuts for a nutritious start.</p>
+            </div>
+            <div class="item2" data-category="Arts">
+                <h3>Band</h3>
+                <p>Play music and perform in concerts and competitions. There's jazz and orchestra.</p>
+            </div>
+            <div class="item2" data-category="Arts">
+                <div>
+                    <img src="Images/Acaibowl.jpg" alt="">
+                </div>
+                <h3>Book Club</h3>
+                <p>A vibrant smoothie bowl packed with berries, granola, and fresh toppings.</p>
+            </div>
+            <div class="item2" data-category="Business">
+                <div>
+                    <img src="Images/slicedKiwi.jpg" alt="">
+                </div>
+                <h3>Business Professional Association (BPA)</h3>
+                <p> A refreshing mix of sliced kiwi and crunchy cashew nuts.</p>
+            </div>
+            <div class="item2" data-category="Games">
+                <h3>Chess Club</h3>
+                <p>Come and play chess for fun, or learn how to play. There's also competitions for those who are interested.</p>
+            </div>
+            <div class="item2" data-category="Arts">
+                <h3>Choir</h3>
+                <p>Brings students together to develop vocal skills, musical understanding, and performance experience through group singing.</p>
+            </div>
+            <div class="item2" data-category="Academic">
+                <h3>Debate</h3>
+                <p>Enhances students' critical thinking, public speaking, and research skills through structured argumentation and competitive debates.</p>
+            </div>
+            <div class="item2" data-category="Academic">
+                <h3>Decathlon</h3>
+                <p>Challenges students academically through team-based competitions that test knowledge across multiple subjects, including math, science, literature, and social studies.</p>
+            </div>
+            <div class="item2" data-category="Animals">
+                <h3>FFA</h3>
+                <p>Promotes agricultural education and leadership development through hands-on experiences and community involvement.</p>
+            </div>
+            <div class="item2" data-category="Games">
+                <h3>Gamer's Club</h3>
+                <p>Provides a social space for students to connect over video games, board games, and other gaming activities.</p>
+            </div>
+            <div class="item2" data-category="STEM">
+                <h3>Health Occupation Students of America (HOSSA)</h3>
+                <p>Prepares students for careers in the health care industry through leadership development, skill-building, and community service.</p>
+            </div>
+            <div class="item2" data-category="Military">
+                <h3>JROTC</h3>
+                <p>Builds leadership, discipline, and citizenship skills through military-style training and community service activities.</p>
+            </div>
+            <div class="item2" data-category="STEM, Academic">
+                <h3>Mu Alpha Theta</h3>
+                <p>Gain community hours and help students with math or science subjects. Assitance is also provided in college.</p>
+            </div>
+            <div class="item2" data-category="Civic Engagement, Academic">
+                <h3>National Honor Society (NHS)</h3>
+                <p>Recognizes and promotes academic excellence, leadership, service, and character among high school students.</p>
+            </div>
+            <div class="item2" data-category="Civic Engagement, Academic">
+                <h3>National Hispanic Society</h3>
+                <p>Celebrates Hispanic culture and heritage while promoting academic excellence, leadership, and community service among students.</p>
+            </div>
+            <div class="item2" data-category="Civic Engagement, Academic">
+                <h3>Student Council (Seniors Only)</h3>
+                <p>Provides leadership opportunities for seniors to represent their peers and contribute to school decisions.</p>
+            </div>
+            <div class="item2" data-category="STEM">
+                <h3>Technology Student Association (TSA)</h3>
+                <p>Engages students in STEM through competitive events, teamwork, and real-world problem solving.</p>
+            </div>
+            <div class="item2" data-category="Arts">
+                <h3>Theatre</h3>
+                <p>Allows students to explore acting, stage production, and performance while building creativity and confidence.</p>
+        </div>
+        <div class="dsgn"></div>
+    </div>
+    </div>
+    <main-footer></main-footer>
+    <script src="App.js"></script>
+</body>
+</html>
