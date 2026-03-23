@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener('load', function() {
     const searchicon1 = document.querySelector("#searchicon1");
     const search1 = document.querySelector("#searchinput1");
 
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (bar) {
         bar.addEventListener('click', function() {
-            setTimeout(() => {
+            setTimeout(function() {
                 cross.style.display = 'block';
             }, 200);
             headerbar.style.right = '0';
@@ -43,14 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // Filter logic
     const filter = document.getElementById("categoryFilter");
     const clubs = document.querySelectorAll(".item2");
 
     if (filter) {
-        filter.addEventListener("change", () => {
+        filter.addEventListener("change", function() {
             const selectedCategory = filter.value.toLowerCase();
-            clubs.forEach(club => {
+            clubs.forEach(function(club) {
                 const clubCategory = club.dataset.category.toLowerCase();
                 if (selectedCategory === "all" || clubCategory.includes(selectedCategory)) {
                     club.style.display = "block";
