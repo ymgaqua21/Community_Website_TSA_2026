@@ -44,11 +44,10 @@ window.addEventListener('load', function() {
     }
 
     const filter = document.getElementById("categoryFilter");
-    const clubs = document.querySelectorAll(".item2");
-
     if (filter) {
         filter.addEventListener("change", function() {
             const selectedCategory = filter.value.toLowerCase();
+            const clubs = document.querySelectorAll(".item2"); // moved inside here!
             clubs.forEach(function(club) {
                 const clubCategory = club.dataset.category.toLowerCase();
                 if (selectedCategory === "all" || clubCategory.includes(selectedCategory)) {
