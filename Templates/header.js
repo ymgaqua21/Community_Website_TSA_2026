@@ -1,15 +1,10 @@
 class Header extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <!DOCTYPE html>
-        <html lang="en">
-
-        <nav>
             <ul>
                 <li><a href="index.html"></a></li>
             </ul>
         </nav>
-        <body>
             <header>
                 <div class="header">
                     <div class="headerbar">
@@ -95,9 +90,7 @@ class Header extends HTMLElement {
                     </div>
                 </div>
             </header>
-            <script src="App.js"></script>
-        </body>
-        </html>
+
         `;
     }
 }
