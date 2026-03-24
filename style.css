@@ -202,7 +202,7 @@
 }
 
 .item2 img{
-    width: 130px;
+    width: 200px;
     margin-bottom: 15px;
 }
 
@@ -374,7 +374,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
 }
 
 .main_slide3 .fav-food .item2 img{
-    width: 115px;
+    width: 200px;
     margin-bottom: 15px;
 }
 
@@ -701,7 +701,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
 }
 
 .breakfast-main .breakfast .item2 img{
-    width: 120px;
+    width: 140px;
     margin-bottom: 15px;
 }
 
@@ -1058,7 +1058,7 @@ box-shadow: 0 10px 15px rgb(250, 120, 69);
     }
 
     .breakfast-main .breakfast .item2 img{
-        width: 120%;
+        width: 100%;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
