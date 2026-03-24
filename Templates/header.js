@@ -46,7 +46,7 @@ class Header extends HTMLElement {
                         </div>
                     </div>
                     <div class="logo">
-                        <img src="Images/honeybee.png" alt="">
+                        <img src="Images/Houston-MacArthur-Generals1-large.png" alt="">
                     </div>
                     <div class="bar">
                         <i class="fa-solid fa-bars"></i>
